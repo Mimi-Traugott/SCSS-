@@ -1,0 +1,21 @@
+$primaryBtn : ;
+$textColor: #607d8b;
+
+header {
+    background: 
+    display: flex;
+    justify-content: center;
+    color: $textColor;
+    button {
+        background: $primaryBtn;
+        &::after{
+            content:"hello???";
+        }
+
+    }
+}
+
+
+.contact button{
+    background: $primaryBtn;
+}
